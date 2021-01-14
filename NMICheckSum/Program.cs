@@ -12,7 +12,7 @@ namespace NMICheckSum
         {
             string nmiInput;
             int length;
-            //Enter the NMI again 3; 
+            //Enter the NMI again 4; 
             Console.Write("Enetr the NMI Without CheckSum");
             nmiInput = Console.ReadLine();
             length = (nmiInput.Trim()).Length;
